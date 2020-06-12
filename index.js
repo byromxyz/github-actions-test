@@ -1,21 +1,21 @@
 console.log('Hello, world');
 
 function log(boolOne, boolTwo) {
-  console.log(`boolOne: ${boolOne}, boolTwo: ${boolTwo}`)
+  return { boolOne, boolTwo }
 }
 
 function doSomething(boolOne, boolTwo) {
   if (boolOne) {
     if (boolTwo) {
-      log(boolOne, boolTwo);
+      return log(boolOne, boolTwo);
     } else {
-      log(boolOne, boolTwo);
+      return log(boolOne, boolTwo);
     }
   } else {
     if (boolTwo) {
-      log(boolOne, boolTwo);
+      return log(boolOne, boolTwo);
     } else {
-      log(boolOne, boolTwo);
+      return log(boolOne, boolTwo);
     }
   }
 }
