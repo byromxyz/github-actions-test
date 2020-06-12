@@ -1,0 +1,11 @@
+{
+  "name": "coverage-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.dev.global.tesco.org/UK45003812/coverage-test.git",
+  "author": "Ash Byrom <ashley.byrom@tesco.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}
