@@ -1,10 +1,22 @@
 console.log('Hello, world');
 
-function doSomething(bool) {
-  if (bool) {
-    return 'bool is true'
+function log(boolOne, boolTwo) {
+  console.log(`boolOne: ${boolOne}, boolTwo: ${boolTwo}`)
+}
+
+function doSomething(boolOne, boolTwo) {
+  if (boolOne) {
+    if (boolTwo) {
+      log(boolOne, boolTwo);
+    } else {
+      log(boolOne, boolTwo);
+    }
   } else {
-    return 'bool is false'
+    if (boolTwo) {
+      log(boolOne, boolTwo);
+    } else {
+      log(boolOne, boolTwo);
+    }
   }
 }
 
